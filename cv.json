@@ -2,8 +2,8 @@
   "basics": {
     "name": "Federico Di Cillo",
     "label": "Full Stack Developer con más de 15 años de experiencia & Creador de Contenido de Programación",
-    "image": "/me.webp",
-    "email": "miduga@gmail.com",
+    "image": "/assets/profile-color.webp",
+    "email": "dicillo.fe@outlook.es",
     "phone": "+34 688888888",
     "url": "https://midu.dev",
     "summary": "+15 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
@@ -12,7 +12,7 @@
       "postalCode": "08820",
       "city": "el Prat de Llobregat",
       "countryCode": "ES",
-      "region": "España"
+      "region": "Argentina"
     },
     "profiles": [
       {

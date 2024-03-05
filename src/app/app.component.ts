@@ -10,7 +10,6 @@ import { EducationComponent } from './components/sections/education/education.co
 import { SkillsComponent } from './components/sections/skills/skills.component';
 import { KeyboardManagerComponent } from './components/keyboard-manager/keyboard-manager.component';
 
-
 import { basics } from '@cv';
 
 @Component({
@@ -24,13 +23,15 @@ import { basics } from '@cv';
             ProjectsComponent,
             EducationComponent,
             SkillsComponent,
-            KeyboardManagerComponent],
+            KeyboardManagerComponent,],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 
 export class AppComponent implements OnInit {
- 
+  public info = basics;
+
+
   ngOnInit(): void {
     document.title = `Portfolio de ${basics.name}`;
 

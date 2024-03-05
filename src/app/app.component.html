@@ -1,6 +1,19 @@
-<app-hero />
-<app-about />
-<app-experience />
-<app-projects />
-<app-education />
-<app-skills />
+<main>
+    <app-hero 
+        [name]="info.name"
+        [label]="info.label"
+        [image]="info.image"
+        [email]="info.email"         
+        [phone]="info.phone"        
+        [url]="info.url"            
+        [summary]="info.summary"      
+        [country]="info.location.region"  
+        [profiles]="info.profiles"/>
+    <app-about />
+    <app-experience />
+    <app-projects />
+    <app-education />
+    <app-skills />
+ 
+
+</main>
