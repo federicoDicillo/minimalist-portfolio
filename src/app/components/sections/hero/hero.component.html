@@ -14,10 +14,10 @@
                     target="_blank"
                     rel="noopener noreferrer"
                     >
-                       <img src="../../../../icons/Mail.svg" alt="">{{email}}
+                        <img src="../../../../assets/icons/Mail.svg" alt="email">
                     </a>
-
                 </div>
+
                 <div *ngIf="phone">
                     <a 
                     href="tel:{{ phone }}"
@@ -25,10 +25,10 @@
                     target="_blank"
                     rel="noopener noreferrer"
                     >
-                    <img src="../../../../icons/Phone.svg" alt="">{{phone}}
+                        <img src="../../../../assets/icons/Phone.svg" alt="">
                     </a>
-
                 </div>
+
                 <div *ngFor="let profile of profiles">
                     <a
                      href="{{profile.url}}"
@@ -42,7 +42,7 @@
             </footer>
         </div>
      <figure>
-       <img src={{image}} alt={{name}} />
+       <img id="profile-image" src={{image}} alt={{name}} />
      </figure>
     </div>
  

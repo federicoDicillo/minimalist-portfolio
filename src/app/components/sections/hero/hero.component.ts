@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
 import { SectionComponent } from '../../section/section.component';
 
+
 @Component({
   selector: 'app-hero',
   standalone: true,
@@ -10,6 +11,8 @@ import { SectionComponent } from '../../section/section.component';
   templateUrl: './hero.component.html',
   styleUrl: './hero.component.css'
 })
+
+
 export class HeroComponent {
   @Input() name!: string;
   @Input() label!: string;
@@ -20,10 +23,8 @@ export class HeroComponent {
   @Input() summary!: string;
   @Input() country!: {};
   @Input() profiles!: any[];
-
-
-
   
+
   ngOnInit(): void {
   
 

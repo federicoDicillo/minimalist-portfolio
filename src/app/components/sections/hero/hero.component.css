@@ -24,7 +24,7 @@ h2 {
   text-wrap: balance;
 }
 
-img {
+#profile-image {
   aspect-ratio: 1 / 1;
   object-fit: cover;
   width: 128px;
