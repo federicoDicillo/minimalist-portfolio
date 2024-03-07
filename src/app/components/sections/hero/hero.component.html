@@ -1,1 +1,52 @@
-{{name}}
+<app-section>
+    <div class="container">
+        <div class="info">
+            <h1>{{name}}</h1>
+            <h2>{{label}}</h2>
+            <span>
+                <img src="../../../../assets/icons/WorldMap.svg" alt="WorldMap">
+                {{country}}
+            </span>
+            <footer>
+                <div *ngIf="email">
+                    <a 
+                    href="mailto:{{ email }}"
+                    title="Enviar un correo electrónico a {{ name }} al correo {{ email }}"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                        <img src="../../../../assets/icons/Mail.svg" alt="email">
+                    </a>
+                </div>
+
+                <div *ngIf="phone">
+                    <a 
+                    href="tel:{{ phone }}"
+                    title="Llamar por teléfono a {{ name }} al número {{ phone }}"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                        <img src="../../../../assets/icons/Phone.svg" alt="Phone">
+                    </a>
+                </div>
+
+                <div *ngFor="let profile of profiles">
+                    <a
+                     href="{{profile.url}}"
+                     title="Visitar el perfil de {{name}} en {{profile.network}}"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                    > 
+                        <img src="../../../../assets/icons/{{profile.network}}.svg" alt={{profile.network}}>
+                    </a>
+                </div>                
+                
+            </footer>
+        </div>
+     <figure>
+       <img id="profile-image" src={{image}} alt={{name}} />
+     </figure>
+    </div>
+ 
+
+</app-section>
