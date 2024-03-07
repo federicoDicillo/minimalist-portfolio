@@ -20,7 +20,6 @@ export class HeroComponent {
   @Input() email!: string;
   @Input() phone!: string;
   @Input() url!: string;
-  @Input() summary!: string;
   @Input() country!: {};
   @Input() profiles!: any[];
   

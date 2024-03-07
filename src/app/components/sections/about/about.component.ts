@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { SectionComponent } from '../../section/section.component';
 
 @Component({
@@ -9,5 +9,5 @@ import { SectionComponent } from '../../section/section.component';
   styleUrl: './about.component.css'
 })
 export class AboutComponent {
-
+  @Input() summary!: string;
 }

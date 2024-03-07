@@ -1,34 +1,34 @@
 {
   "basics": {
     "name": "Federico Di Cillo",
-    "label": "Full Stack Developer con más de 15 años de experiencia & Creador de Contenido de Programación",
+    "label": "Full Stack Developer, orientado al FrontEnd",
     "image": "/assets/profile-color.webp",
     "email": "dicillo.fe@outlook.es",
-    "phone": "+34 688888888",
+    "phone": "+54 3469 693745",
     "url": "https://midu.dev",
-    "summary": "+15 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
+    "summary": "Estudié técnico en sistemas electrónicos en la Universidad Nacional de Rosario, donde me inicié en el mundo de la programación con lenguaje C, gracias a eso decidí tomar cursos de desarrollo web, y a día de hoy sigo formandome de forma autodidacta. También soy técnico en reparación de celulares, y manejo un servicio técnico en mi localidad.",
     "location": {
       "address": "",
-      "postalCode": "08820",
-      "city": "el Prat de Llobregat",
-      "countryCode": "ES",
+      "postalCode": "2109",
+      "city": "Acebal",
+      "countryCode": "AR",
       "region": "Argentina"
     },
     "profiles": [
       {
         "network": "LinkedIn",
         "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
+        "url": "https://www.linkedin.com/in/federico-di-cillo-773579233/"
       },
       {
         "network": "X",
         "username": "midudev",
-        "url": "https://x.com/midudev"
+        "url": "https://x.com/FedericoDiCillo"
       },
       {
         "network": "GitHub",
         "username": "midudev",
-        "url": "https://github.com/midudev"
+        "url": "https://github.com/federicoDicillo"
       }
     ]
   },

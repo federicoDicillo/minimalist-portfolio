@@ -5,11 +5,10 @@
         [image]="info.image"
         [email]="info.email"         
         [phone]="info.phone"        
-        [url]="info.url"            
-        [summary]="info.summary"      
+        [url]="info.url"                
         [country]="info.location.region"  
         [profiles]="info.profiles"/>
-    <app-about />
+    <app-about [summary]="info.summary"  />
     <app-experience />
     <app-projects />
     <app-education />
