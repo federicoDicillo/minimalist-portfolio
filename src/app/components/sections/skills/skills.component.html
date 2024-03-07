@@ -1,3 +1,7 @@
-<app-section>
-    <p>education works!</p>
-    </app-section>
+<app-section title="Habilidades">
+    <ul *ngFor="let skill of skills">
+        <li *ngIf="skill.name">
+            <img src="../../../../assets/icons/{{skill.name}}.svg" alt="{{skill.name}}">{{skill.name}}
+        </li>
+    </ul>
+</app-section>

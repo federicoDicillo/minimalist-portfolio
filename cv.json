@@ -131,6 +131,20 @@
       ]
     },
     {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Angular",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
       "name": "Tailwind",
       "level": "Avanzado",
       "keywords": [
@@ -138,10 +152,17 @@
       ]
     },
     {
-      "name": "TypeScript",
+      "name": "Java",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+        "Desarrollo Web", "Backend"
+      ]
+    },
+    {
+      "name": "Springboot",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend"
       ]
     },
     {
@@ -170,20 +191,6 @@
       "level": "Avanzado",
       "keywords": [
         "Control de Versiones", "Colaboración", "Código Fuente", "Git"
-      ]
-    },
-    {
-      "name": "Next.js",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
-      ]
-    },
-    {
-      "name": "React",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
       ]
     }
   ],
