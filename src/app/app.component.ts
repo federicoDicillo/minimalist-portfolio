@@ -33,7 +33,5 @@ export class AppComponent implements OnInit {
 
 
   ngOnInit(): void {
-    document.title = `Portfolio de ${basics.name}`;
-
   }
 }
