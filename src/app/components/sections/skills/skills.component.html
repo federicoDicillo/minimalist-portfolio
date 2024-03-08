@@ -1,7 +1,7 @@
 <app-section title="Habilidades">
-    <ul *ngFor="let skill of skills">
-        <li *ngIf="skill.name">
-            <img src="../../../../assets/icons/{{skill.name}}.svg" alt="{{skill.name}}">{{skill.name}}
+    <ul>
+        <li *ngFor="let skill of skills">
+            <img src="../../../../assets/icons/{{skill.name}}.svg" alt="•">{{skill.name}}
         </li>
     </ul>
 </app-section>
