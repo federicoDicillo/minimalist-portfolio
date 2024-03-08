@@ -1,3 +1,30 @@
-<app-section>
-   <p>education works!</p>
+<app-section title="Experiencia laboral">
+   <ul>
+      <li *ngFor="let work of works">
+         <article>
+
+            <header>
+
+               <div>
+                  <h3>
+                     <a href="{{work.url}}" title="Ver {{work.name}}" target="_blank" >
+                     {{work.name}}
+                     </a>
+                  </h3>
+                  <h4>{{work.position}}</h4>
+               </div>
+               <div class="date">
+                  <time *ngIf="work.endDate; else defaultString">{{work.startDate}} - {{work.endDate}}</time>
+                  <ng-template #defaultString>{{work.startDate}} - Actual</ng-template>
+               </div>
+             
+            </header>
+
+            <footer>
+               <p>{{work.summary}}</p>
+            </footer>
+
+         </article>
+      </li>
+   </ul>
 </app-section>

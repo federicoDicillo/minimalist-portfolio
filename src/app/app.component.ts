@@ -31,6 +31,7 @@ import { basics } from '@cv';
 export class AppComponent implements OnInit {
   public info = basics;
 
+  location = `${this.info.location.city}, ${this.info.location.region}, ${this.info.location.country}`;
 
   ngOnInit(): void {
   }
