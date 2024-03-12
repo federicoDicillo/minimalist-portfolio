@@ -1,3 +1,57 @@
 <app-section title="Educación">
+    <ul>
+        <li *ngFor="let study of education">
+            <article>
 
+                <header>
+                    <div>
+                        <a href="{{study.url}}" title="Ir a {{study.url}}" target="_blank">
+                            <h3>{{study.institution}}</h3>
+                        </a>
+                    </div>
+                    <div class="date">
+                        <time *ngIf="study.endDate; else defaultString">{{study.startDate}} - {{study.endDate}}</time>
+                        <ng-template #defaultString>{{study.startDate}} - Actual</ng-template>
+                     </div>
+                </header>
+
+                <footer>
+                    <p>{{study.area}}</p>
+                </footer>
+
+            </article>
+        </li>
+    </ul>
+
+    <div>
+        <h2 id="certificates-title">Certificados</h2>
+    <ul class="certificates">
+        <li *ngFor="let certificate of certificates">
+            <article>
+                <header>
+                    <div>
+                        <h3>{{certificate.name}}</h3>
+                        <a href="{{certificate.url}}" title="Visitar {{certificate.issuer}}" target="_blank">
+                            <p>{{certificate.issuer}}</p>
+                        </a>
+                    </div>
+                    <div>
+                        <button id="viewDiploma">
+                            <img src="../../../../assets/icons/diploma.svg" alt="Ver certificado de {{certificate.issuer}}">
+                         </button>
+                    </div>
+                </header>
+
+                <footer >
+                    <span *ngFor="let stack of certificate.stack">
+                        {{stack}}
+                    </span>
+                </footer>
+            </article>
+        
+        </li>
+    </ul>
+
+    </div>
+    
 </app-section>

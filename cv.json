@@ -79,12 +79,12 @@
     ]
   }],
   "education": [{
-    "institution": "Universitat Oberta de Catalunya",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Ingeniero de Software",
-    "studyType": "Bachelor",
-    "startDate": "2003-01-01",
-    "endDate": "2009-01-01",
+    "institution": "Instituto Politécnico UNR",
+    "url": "https://www.ips.edu.ar/",
+    "area": "Técnico Universitario en Sistemas Electrónicos",
+    "studyType": "Terciario",
+    "startDate": "2016",
+    "endDate": "2020",
     "score": "4.0",
     "courses": [
       "DB1101 - Basic SQL"
@@ -97,11 +97,25 @@
     "summary": "There is no spoon."
   }],
   "certificates": [{
-    "name": "Certificate",
+    "name": "Desarrollador Full Stack",
     "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
+    "issuer": "Argentina Programa",
+    "url": "https://certificate.com",
+    "diploma":"argentina-programa.png",
+    "stack":[
+      "Angular", "Java", "MySQL"
+        ]
+    },
+    {
+      "name": "Desarrollo con Node.js",
+      "date": "2021-11-07",
+      "issuer": "Centro e-Learning UTN.BA",
+      "url": "https://cursos.utnba.centrodeelearning.com/",
+      "diploma":"node-js.png",
+      "stack":[
+        "Node.js", "Express", "MongoDB"
+        ]
+    }],
   "publications": [{
     "name": "Publication",
     "publisher": "Company",
@@ -110,13 +124,6 @@
     "summary": "Description…"
   }],
   "skills": [
-    {
-      "name": "kotlin",
-      "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend"
-      ]
-    },
     {
       "name": "HTML",
       "level": "Master",
