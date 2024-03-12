@@ -39,15 +39,15 @@ header {
 
 .certificates {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));  /* EL RESPONSIVE */
   gap: 1rem;
-  margin-inline: -16px;
 }
 
 #certificates-title {
   font-size: 1.2rem;
   font-weight: 600;
   margin-top: 20px;
+  margin-botom: 10px;
 }
 
 .certificates article {
@@ -82,11 +82,10 @@ header {
 }
 
 #viewDiploma {
-  border-radius: 6px;
-  background-color: #eee;
   color: #444;
   padding: 0.2rem 0.4rem;
-  appearance: none;
+  border: 0;
+  background: transparent;
   cursor: pointer;
 }
 #viewDiploma:hover {
