@@ -97,11 +97,25 @@
     "summary": "There is no spoon."
   }],
   "certificates": [{
-    "name": "Certificate",
+    "name": "Desarrollador Full Stack",
     "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
+    "issuer": "Argentina Programa",
+    "url": "https://certificate.com",
+    "diploma":"argentina-programa.png",
+    "stack":[
+      "Angular", "Java", "MySQL"
+        ]
+    },
+    {
+      "name": "Desarrollo con Node.js",
+      "date": "2021-11-07",
+      "issuer": "Centro e-Learning UTN.BA",
+      "url": "https://cursos.utnba.centrodeelearning.com/",
+      "diploma":"node-js.png",
+      "stack":[
+        "Node.js", "Express", "MongoDB"
+        ]
+    }],
   "publications": [{
     "name": "Publication",
     "publisher": "Company",
