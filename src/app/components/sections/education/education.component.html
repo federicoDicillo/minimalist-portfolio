@@ -1,3 +1,23 @@
 <app-section title="Educación">
+    <ul>
+        <li *ngFor="let study of education">
+            <article>
 
+                <header>
+                    <div>
+                        <a href="{{study.url}}" title="Ir a {{study.url}}" target="_blank"><h3>{{study.institution}}</h3></a>
+                    </div>
+                    <div class="date">
+                        <time *ngIf="study.endDate; else defaultString">{{study.startDate}} - {{study.endDate}}</time>
+                        <ng-template #defaultString>{{study.startDate}} - Actual</ng-template>
+                     </div>
+                </header>
+
+                <footer>
+                    <p>{{study.area}}</p>
+                </footer>
+
+            </article>
+        </li>
+    </ul>
 </app-section>
