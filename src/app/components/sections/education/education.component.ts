@@ -17,15 +17,15 @@ export class EducationComponent {
 public education = education
 public certificates = certificates
 
-constructor(private diplomaService: DiplomaService) {}
-
-  toggleDiploma() {
-    this.diplomaService.toggleDiplomaVisibility();
-  }
-
-  get isDiplomaVisible() {
-    return this.diplomaService.isDiplomaVisible;
-  }
+//constructor(private diplomaService: DiplomaService) {}
+//
+//  toggleDiploma() {
+//    this.diplomaService.toggleDiplomaVisibility();
+//  }
+//
+//  get isDiplomaVisible() {
+//    return this.diplomaService.isDiplomaVisible;
+//  }
 ngOnInit(): void {
 
 }
