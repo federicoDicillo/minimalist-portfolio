@@ -82,11 +82,10 @@ header {
 }
 
 #viewDiploma {
-  border-radius: 6px;
-  background-color: #eee;
   color: #444;
   padding: 0.2rem 0.4rem;
-  appearance: none;
+  border: 0;
+  background: transparent;
   cursor: pointer;
 }
 #viewDiploma:hover {
