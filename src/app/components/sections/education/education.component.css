@@ -39,9 +39,8 @@ header {
 
 .certificates {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));  /* EL RESPONSIVE */
   gap: 1rem;
-  margin-inline: -16px;
 }
 
 #certificates-title {
