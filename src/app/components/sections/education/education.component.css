@@ -84,7 +84,7 @@ header {
   margin-bottom: 4px;
 }
 
-#viewDiploma {
+#diploma-button {
   color: #444;
   padding: 0.4rem 0.4rem;
   border: 0.2px solid #999;
@@ -93,7 +93,7 @@ header {
   border-radius: 5px;
   background-color: #eeeeee6a;
 }
-#viewDiploma:hover {
+#diploma-button:hover {
   background-color: #eee;
 }
 
