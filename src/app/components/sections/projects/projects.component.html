@@ -1,2 +1,22 @@
 <app-section title="Proyectos">
+    <ul>
+        <li *ngFor="let project of projects">
+            <article>
+                <header>
+                    <h3>
+                        <a href="{{project.url}}" title="Ver el proyecto {{project.name}}" target="_blank">
+                            {{project.name}}
+                        </a>
+                        <a class="github-code-link" *ngIf="project.github"href="{{project.github}}" title="Ver código fuente del proyecto {{project.name}}" target="_blank">
+                            <img src="../../../../assets/icons/GitHub.svg" alt="github">
+                        </a>
+                    </h3>
+                    <p>{{project.description}}</p>
+                </header>
+                <footer *ngFor="let highlight of project.highlights">
+                    <span>{{highlight}}</span>
+                </footer>
+            </article>
+        </li>
+    </ul>
 </app-section>

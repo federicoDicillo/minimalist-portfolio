@@ -39,7 +39,10 @@ header {
 
 .certificates {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));  /* EL RESPONSIVE */
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(200px, 1fr)
+  ); /* EL RESPONSIVE */
   gap: 1rem;
 }
 
@@ -47,7 +50,7 @@ header {
   font-size: 1.2rem;
   font-weight: 600;
   margin-top: 20px;
-  margin-botom: 10px;
+  margin-bottom: 10px;
 }
 
 .certificates article {
