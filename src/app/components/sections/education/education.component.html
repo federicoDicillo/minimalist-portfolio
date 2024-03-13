@@ -35,11 +35,13 @@
                             <p>{{certificate.issuer}}</p>
                         </a>
                     </div>
+<!--  Boton para mostrar diploma
                     <div>
-                        <button id="viewDiploma">
-                            <img src="../../../../assets/icons/diploma.svg" alt="Ver certificado de {{certificate.issuer}}">
+                        <button (click)="openModal()" id="diploma-button" title="Ver certificado de {{certificate.issuer}}">
+                            <img src="../../../../assets/icons/diploma.svg" alt="certificado de {{certificate.issuer}}">
                          </button>
                     </div>
+                    -->     
                 </header>
 
                 <footer >
@@ -55,3 +57,14 @@
     </div>
     
 </app-section>
+
+
+
+<!-- Modal de diploma
+    
+<div *ngFor="let certificate of certificates, let i = index">
+    <div class="" *ngIf="modalSwitch">
+        <app-modal-certificate [diploma]="certificates[i].diploma"></app-modal-certificate>
+    </div>
+</div>
+-->

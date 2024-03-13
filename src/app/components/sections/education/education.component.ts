@@ -1,15 +1,18 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+
 import { SectionComponent } from '../../section/section.component';
+import { ModalCertificateComponent } from '../../modal-certificate/modal-certificate.component';
 import { education, certificates } from '@cv';
-import { DiplomaService } from '../../../services/diploma.service';
+import { SwitchService } from '../../../services/switch.service';
 
 @Component({
   selector: 'app-education',
   standalone: true,
   imports: [CommonModule,
-            SectionComponent],
+            SectionComponent,
+            ModalCertificateComponent],
   templateUrl: './education.component.html',
   styleUrl: './education.component.css'
 })
@@ -17,16 +20,20 @@ export class EducationComponent {
 public education = education
 public certificates = certificates
 
-//constructor(private diplomaService: DiplomaService) {}
-//
-//  toggleDiploma() {
-//    this.diplomaService.toggleDiplomaVisibility();
-//  }
-//
-//  get isDiplomaVisible() {
-//    return this.diplomaService.isDiplomaVisible;
-//  }
-ngOnInit(): void {
+modalSwitch:boolean = false;
+
+constructor(private modalS: SwitchService) {}
+
+ngOnInit() {
+
+  this.modalS.$modal.subscribe((value)=>{
+    this.modalSwitch = value
+  })
+}
+
+
+openModal(){
+  this.modalSwitch = true;
 
 }
 }

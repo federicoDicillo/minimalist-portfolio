@@ -84,15 +84,17 @@ header {
   margin-bottom: 4px;
 }
 
-#viewDiploma {
+#diploma-button {
   color: #444;
-  padding: 0.2rem 0.4rem;
-  border: 0;
+  padding: 0.4rem 0.4rem;
+  border: 0.2px solid #999;
   background: transparent;
   cursor: pointer;
+  border-radius: 5px;
+  background-color: #eeeeee6a;
 }
-#viewDiploma:hover {
-  background-color: #fff;
+#diploma-button:hover {
+  background-color: #eee;
 }
 
 .certificates footer {
