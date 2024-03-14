@@ -14,7 +14,7 @@ import { certificates } from '@cv'
   styleUrl: './modal-certificate.component.css'
 })
 export class ModalCertificateComponent {
-@Input() diploma!: string;
+@Input() diploma!: String;
 
 public certificates = certificates;
 
