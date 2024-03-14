@@ -21,6 +21,7 @@ public education = education
 public certificates = certificates
 
 modalSwitch:boolean = false;
+diplomaExt:String = '';
 
 constructor(private modalS: SwitchService) {}
 
@@ -29,11 +30,13 @@ ngOnInit() {
   this.modalS.$modal.subscribe((value)=>{
     this.modalSwitch = value
   })
+
+
 }
 
 
-openModal(){
+openModal(diploma: String){
   this.modalSwitch = true;
-
+  this.diplomaExt = diploma;
 }
 }
