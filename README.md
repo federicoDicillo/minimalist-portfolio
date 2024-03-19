@@ -8,8 +8,8 @@ Esquema del JSON de CV de <a href="https://jsonresume.org/schema/">jsonresume.or
 </p>
 
 <p>
-Basado en el diseño de <a href="https://github.com/midudev/minimalist-portfolio-json">Miguel Ángel Durán</a>
-<a href="https://midu.dev"> (Midudev)</a>
+Basado en el diseño de <a href="https://github.com/midudev/minimalist-portfolio-json">Miguel Ángel Durán</a> - 
+<a href="https://midu.dev">Midudev</a>
 
 </p>
 
@@ -32,7 +32,7 @@ Basado en el diseño de <a href="https://github.com/midudev/minimalist-portfolio
 
 ## 🛠️ Stack
 
-- [**Angular**](https://angular.io/) - El framework web de la nueva época.
+- [**Angular**](https://angular.io/)
 - [**Typescript**](https://www.typescriptlang.org/) - JavaScript con sintaxis de tipado.
 
 # MinimalistPortfolio
