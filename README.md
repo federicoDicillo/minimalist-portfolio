@@ -1,3 +1,40 @@
+<div align="center">
+<img src="logo.png" height="90px" width="auto" /> 
+<h2>
+    <em>Résumé</em> minimalista maquetado para web y pdf
+</h2>
+<p>
+Esquema del JSON de CV de <a href="https://jsonresume.org/schema/">jsonresume.org</a>
+</p>
+
+<p>
+Basado en el diseño de <a href="https://github.com/midudev/minimalist-portfolio-json">Miguel Ángel Durán</a>
+<a href="https://midu.dev"> (Midudev)</a>
+
+</p>
+
+</div>
+
+<div align="center">
+    <a href="#🚀-empezar">
+        Empezar
+    </a>
+    <span>&nbsp;✦&nbsp;</span>
+    <a href="#🔑-licencia">
+        Licencia
+    </a>
+   
+</div>
+
+<p></p>
+
+<img src="portada.png"></img>
+
+## 🛠️ Stack
+
+- [**Angular**](https://angular.io/) - El framework web de la nueva época.
+- [**Typescript**](https://www.typescriptlang.org/) - JavaScript con sintaxis de tipado.
+
 # MinimalistPortfolio
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.1.
