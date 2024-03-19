@@ -21,6 +21,7 @@
 
 #certificate {
   max-width: 700px;
+  aspect-ratio: 1.55 / 1;
 }
 
 button {
